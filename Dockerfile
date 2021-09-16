@@ -1,3 +1,3 @@
-FROM graphana
+FROM grafana/grafana
 
 
