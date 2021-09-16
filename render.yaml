@@ -3,3 +3,7 @@ services:
   - type: web
     name: graphana
     env: docker
+    disk:
+      name: graphana-data
+      mountPath: /var/lib/grafana
+      sizeGB: 10

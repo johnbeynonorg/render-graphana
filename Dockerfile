@@ -1,3 +1,3 @@
-FROM influxdb:2.0
+FROM graphana
 
 
